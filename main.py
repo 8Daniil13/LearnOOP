@@ -1,0 +1,1 @@
+print(go v pohod letom)
