@@ -1,1 +1,1 @@
-print(go v pohod letom)
+print("go v pohod letom")
