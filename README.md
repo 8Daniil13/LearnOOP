@@ -1,8 +1,36 @@
 # LearnOOP
-this  is first project. There li 
 
+Простой Telegram echo-бот на Python (aiogram), управление зависимостями через `uv`.
 
-test
+## Описание
 
-test 2
+Бот отвечает на `/start` приветствием и повторяет любое текстовое сообщение.
 
+## Требования
+
+- Python 3.13+
+- `uv` (менеджер зависимостей)
+
+## Запуск
+
+```bash
+# 1) Скопируй пример и вставь токен бота (получи у @BotFather)
+cp env.example .env
+# отредактируй .env и укажи BOT_TOKEN
+
+# 2) Установи зависимости и запусти эхо-бота
+uv run python bot.py
+```
+
+## Структура проекта
+
+```
+LearnOOP/
+├── bot.py           # Telegram echo-бот (aiogram)
+├── env.example      # Пример переменной окружения BOT_TOKEN
+├── pyproject.toml   # Конфигурация проекта и зависимости (uv)
+├── uv.lock          # Lockfile зависимостей (uv)
+├── README.md        # Документация
+├── main.py          # Старый тестовый файл (не используется ботом)
+└── LICENSE          # Лицензия
+```
